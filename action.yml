@@ -6,7 +6,7 @@ inputs:
   version: 
     description:  'version of SHFB to install'
     required: true
-    default: '2022.12.30.0'
+    default: '2023.3.4.0'
     
 runs:
   using: "composite"
