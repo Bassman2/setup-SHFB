@@ -22,7 +22,7 @@ This is a Github action to install EWSoftware/SHFB for later use.
         - name: Install SHFB
           uses: Bassman2/setup-SHFB@v1
           with:
-            version: 2024.2.18.0
+            version: 2024.9.12.0
         
         - name: Create Test Documentation
           run: msbuild setup-SHFB-Test.sln /p:configuration="Release" /m /verbosity:minimal
@@ -33,7 +33,8 @@ The version parameter is optional. If no version is set the latest version will 
 
 Currently the following versions can be used:
 
-* 2024.2.18.0 (default)
+* 2024.9.12.0 (default)
+* 2024.2.18.0
 * 2023.7.8.0
 * 2023.3.4.0
 * 2022.12.30.0
